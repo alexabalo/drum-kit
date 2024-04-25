@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #51585c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.drum-kit{
+    background-color: #1E2326;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1CB698;
+    border-radius: 6px;
+    border: 2px solid #1CB698;
+}
+
+.key{
+    border: 1px solid #1CB698;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.key kdb{
+    display: block;
+    margin: 6px;
+}
+
+.sound{
+    display: block;
+    margin-top: 10px;
+    
+}
